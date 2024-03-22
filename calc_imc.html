@@ -5,27 +5,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora de IMC</title>
+    <!--Link para o arquivo CSS.-->
     <link rel="stylesheet" href="imc.css">
 </head>
 
 <body>
+    <!--Seção para dividir a parte da calculadora.-->
     <section>
+        <!--A div "area" é onde todas as outra vão. Ajuda na hora de configurar as bordas da calculadora sem alterar o resto do código.-->
         <div id="area">
             <div id="titulo">
                 Calculadora de IMC
             </div>
+            <!--Campo para digitar o peso.-->
             <div id="peso">
                 Digite o seu peso: <input type="number" name="i_peso" id="i_peso">
             </div>
+            <!--Campo para digitar a altura.-->
             <div id="altura">
                 Digite a sua altura: <input type="number" name="i_alt" id="i_alt">
             </div>
+            <!--Botão para calcular. Vai acionar a função "calc()" que vai pegar os valores digitados e jogar na formula do IMC.-->
             <div id="botao">
                 <input type="button" value="CALCULAR" onclick="calc()">
             </div>
+            <!--Título acima do campo onde vai aparecer o resultado do cálculo.-->
             <div id="enunciado">
                 RESULTADO
             </div>
+            <!--Campo onde vai aparecer a mensagem com o resultado do IMC.-->
             <div id="bloco">
                 <div id="text_bloco">
                 </div>
@@ -33,8 +41,10 @@
         </div>
     </section>
     <footer>
+        <!--Campo do footer da página-->
         &copy;Projeto n°1: calculadora de IMC
     </footer>
+    <!--Link para o arquivo JavaScript.-->
     <script src="calc1.js"></script>
 </body>
 
