@@ -1,0 +1,78 @@
+#titulo {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 22px;
+    margin-left: 25px;
+    margin-top: 10px;
+    width: 250px;
+    height: 25px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+div#peso {
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+div#altura {
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#i_peso {
+    margin-left: 6px;
+    width: 70px;
+}
+
+#i_alt {
+    width: 70px;
+}
+
+div#area {
+    background: rgb(253, 253, 162);
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    border-radius: 10px;
+    border-style: solid;
+}
+
+#botao input[type="button"] {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#enunciado {
+    margin-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#bloco {
+    margin-left: 25px;
+    margin-top: 10px;
+    background: rgba(189, 189, 189, 0.466);
+    width: 250px;
+    height: 106px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    border-style: outset;
+}
+
+#text_bloco {
+    margin-left: 10px;
+    padding-top: 10px;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+
+footer{
+    font-size: 10px;
+    margin-left: 84px;
+}
